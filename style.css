@@ -1,0 +1,40 @@
+html,
+body {
+    max-width: 1200px;
+    font-size: 12px;
+    font-family: 'Spartan', sans-serif;
+    margin: 0 auto;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+  }
+thead {
+    background: tomato;
+    position: sticky;
+    top: 0;
+    border-style: solid;
+}
+th {
+    cursor: pointer;
+  }
+  .filter-box {
+    cursor: pointer;
+    background: whitesmoke;
+    border: 0.187rem solid;
+    width: 12%;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+input#search {
+    border: 0.187rem solid;
+    background: whitesmoke;
+}
+.search-box {
+    width: 40%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
